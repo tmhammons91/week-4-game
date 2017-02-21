@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector</title>
+
+
+  <!-- Added a link to Bootstrap-->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+</head>
+<body>
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-12">
+        <h1>MiningCraft!</h1> </div>              
+     </div>
+
+<div class="gameboard">
+
+    <div class="row">
+     	  <div class="col-md-2"> </div>
+     	  <div class="col-md-8" id="instructions"> 
+			     <p><b>Game Instructions</b> </p>
+                 <p>Minerals are in demand across the world, and the Meador Mining Co. needs your help to meet the production targets for platinum, gold, diamonds, and copper!  Click on a mineral image to "produce" between 1-12 units of the mineral.  Each mineral has a unique value, which will added to your production score.  Match your production score to the target to win the game. Go over the target, and you'll flood the market and lose. </p>
+                 <p>Keep in mind that just as mineral prices can go up and down every day, the units awarded per mineral will also go up and down with each game. You will have to click on the minerals to decipher their values.</p>
+                 <p>Have fun, and rest assured that minerals and gemstones from the Meador Mining Co. are sustainably produced and conflict-free.  </p>
+     	  </div>
+     	<div class="col-md-2"> </div>
+    </div>
+
+     <div class="row">
+        <div class ="col-md-4"></div>
+         <div class="col-md-4 "> <h4>Wins:  <span id="wins-tally"></span></h4> <div id="wins-message"></div>
+            <h4>Losses:  <span id="losses-tally"></span></h4>
+            <div id="losses-message"></div>
+        </div>
+        <div class="col-md-4">  </div>
+     </div>
+
+    <div class = "row">
+        <div class="col-md-4"> </div>
+        <div class="col-md-4 "><h4>Production Target:  <span id="target-score"> </span></h4></div>
+        <div class="col-md-4"> </div>
+    </div>
+   
+    <div class="row">  
+        <div class="col-md-2"></div> 
+  		<div class="col-md-8" id="crystal-buttons"> 	
+            <img class="crystal-image" id="crystal1" src="assets/images/platinum.jpg">
+            <img class="crystal-image" id="crystal2" src="assets/images/gold.jpg">
+            <img class="crystal-image" id="crystal3" src="assets/images/diamonds.jpg">
+            <img class="crystal-image" id="crystal4" src="assets/images/copper.jpg">
+  		</div>
+    <!-- images are sourced from fed gov't websites and are public domain-->
+        <div class="col-md-2"></div>
+     </div>
+     
+     <div class="row">
+        <div class="col-md-4"> </div>
+    		<div class="col-md-4"> <h4>Your Production Score:  <span id="points-tally"></span></h4>
+  			</div>
+        <div class="col-md-4"> </div>
+     </div>
+</div> <!---end of gameboard div -->
+
+</div> <!--end of container div -->
+
+<footer class="container-fluid text-center" id="siteFooter">
+  <p>&copy;2017 Terri Meador Hammons </p>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>

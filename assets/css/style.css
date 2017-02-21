@@ -1,0 +1,32 @@
+.container-fluid {
+    margin: 10px 100px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#instructions {
+	background: #ffffff;
+	margin: 0px;
+	border: solid;
+
+}
+
+.gameboard {
+	background-image: url("../images/cubes.png");
+	padding: 25px 25px; 
+	text-align: center;
+}
+
+#crystal-buttons{
+	padding:0px;
+}
+
+#crystal1, #crystal2, #crystal3, #crystal4 {
+	padding: 10px;
+}
+
+h2, h3, h4 {
+	color: #000000;
+}
